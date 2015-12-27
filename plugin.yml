@@ -1,0 +1,10 @@
+main: me.iamguus.soulwell.SoulWell
+name: SoulWell
+version: 1
+author: iAmGuus
+softdepend: [HolographicDisplays]
+commands:
+  soulwell:
+    description: Admin command for SoulWell plugin!
+    default: op
+    permission: soulwell.admin
