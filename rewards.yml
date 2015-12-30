@@ -1,0 +1,11 @@
+rewards:
+  diamond:
+    name: Diamond Reward
+    type: RARE
+    item: id:264 amount:1
+    item_reward: id:264 amount:5
+  fly:
+    name: Fly Privilege
+    type: Common
+    item: id:17 amount:1
+    cmd_reward: fly %player%

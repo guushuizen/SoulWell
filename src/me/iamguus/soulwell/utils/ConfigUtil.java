@@ -36,11 +36,7 @@ public class ConfigUtil {
 
         rewardsFile = new File(p.getDataFolder(), "rewards.yml");
         if (!rewardsFile.exists()) {
-            try {
-                rewardsFile.createNewFile();
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
+            p.saveResource("rewards.yml", true);
         }
         rewardsConf = YamlConfiguration.loadConfiguration(rewardsFile);
 
